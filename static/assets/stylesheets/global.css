@@ -362,7 +362,7 @@ ol {
 }
 
 sup {
-	vertical-align: super
+	vertical-align: super;
 }
 
 .footer {
@@ -377,7 +377,7 @@ sup {
 }
 
 #post-nav {
-	padding-top: 25px
+	padding-top: 32px;
 }
 
 #post-nav .prev {
