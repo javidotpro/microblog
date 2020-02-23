@@ -250,18 +250,17 @@ body {
 
 .post--single {
 	margin: 3rem auto;
-	max-width: 520px;
+	max-width: 599px;
 	text-align: left
 }
 
 .post--single p {
-	font-size: 1.4rem
+	font-size: 1.1rem;
 }
 
 .post--single img {
 	height: auto;
-	max-width: 450px;
-	width: 100%
+	width: 100%;
 }
 
 .post__footer {
