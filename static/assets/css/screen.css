@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("../fonts/soehne-web-regular.woff2") format("woff2"), url("../fonts/soehne-web-regular.woff") format("woff")
+    src: url("/assets/fonts/soehne-web-regular.woff2") format("woff2"), url("/assets/fonts/soehne-web-regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("../fonts/soehne-web-medium.woff2") format("woff2"), url("../fonts/soehne-web-medium.woff") format("woff");
+    src: url("/assets/fonts/soehne-web-medium.woff2") format("woff2"), url("/assets/fonts/soehne-web-medium.woff") format("woff");
     font-weight: bold
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
-    src: url("../fonts/IvarText-Regular.woff2") format("woff2"), url("../fonts/IvarText-Regular.woff") format("woff")
+    src: url("/assets/fonts/IvarText-Regular.woff2") format("woff2"), url("/assets/fonts/IvarText-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
     font-style: italic;
-    src: url("../fonts/IvarText-Italic.woff2") format("woff2"), url("../fonts/IvarText-Italic.woff") format("woff")
+    src: url("/assets/fonts/IvarText-Italic.woff2") format("woff2"), url("/assets/fonts/IvarText-Italic.woff") format("woff")
 }
 
 :root {
@@ -716,6 +716,11 @@ article>header h1 {
     font-size: 1.75em !important;
     color: #777;
     line-height: 1.2
+}
+
+.e-content p img {
+    width: auto !important;
+    height: auto !important;
 }
 
 main ul.home-list { list-style:none; margin:0; padding: 0;}
