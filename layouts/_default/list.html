@@ -1,5 +1,15 @@
 {{ define "main" }}
-<section class="posts h-feed">
+<header>
+  <nav role="navigation"></nav>
+      <h1>Microblog</h1>
+      <ul>
+        <li><a href="/photos/">Photos</a></li>
+        <li><a href="/archive/">Archive</a></li>
+      </ul>
+  </nav>
+</header>
+
+<section class="posts h-feed"></section>
 
 {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 15) }}
 {{ range $paginator.Pages  }}
