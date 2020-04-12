@@ -6,13 +6,15 @@
         <strong>&larr;</strong>
         <br>
             <a href="{{ $pag.Prev.URL }}" class="prev">Take me back</a>
-        {% end %}
+        {{ end }}
     </div>
     <div>
         {{ if $pag.HasNext }}
         <strong>→</strong>
         <br>
             <a href="{{ $pag.Next.URL }}" class="next">Show me more</a>
-        {% end %}
+        {{ end }}
     </div>
 </section>
+
+{{ $pag := $.Paginator }}
