@@ -1,8 +1,4 @@
 {{ define "main" }}
-    <script type="text/javascript">
-        document.getElementById("photo-wall-item")[0].setAttribute("loading", "lazy");
-    </script>
-
     <header>
         <h1>Photos</h1>
         <p>Collection of memories that mean something to me.</p>
@@ -15,7 +11,7 @@
 	{{ range $index, $value := $list }}
 		<a href="{{ .Permalink }}">
 			{{ range first 1 .Params.photos }}
-				<img src="{{ . }}" width="300" height="300" style="border-radius: 5px; max-width: 100%; height: auto;" class="photos-grid-item" id="photo-wall-item" />
+				<img src="{{ . }}" width="300" height="300" style="border-radius: 5px; max-width: 100%; height: auto;" class="photos-grid-item" />
 			{{ end }}
 		</a>
 	{{ end }}
