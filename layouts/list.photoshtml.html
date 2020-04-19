@@ -1,8 +1,9 @@
 {{ define "main" }}
     <header>
         <h1>Photos</h1>
+        <p>Here's a collection of photographs that I've posted on my Microblog along the time.</p>
     </header>
-    
+
 	<div class="photos-grid-container" style="display: grid; grid-column-gap: 15px; grid-row-gap: 15px; grid-template-columns: 33% 33% 33%;">
 
 	{{- $list := where .Pages ".Params.photos" "!=" nil -}}

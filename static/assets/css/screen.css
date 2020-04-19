@@ -193,7 +193,7 @@ figure img {
     border: 1px solid lightgray;
 }
 
-e-content p img {
+.e-content p img {
     border-radius: 5px !important;
     max-width: 100% !important;
     height: auto !important;
