@@ -2,7 +2,6 @@
 <article>
   {{ if .Title }}
     <header>
-      <time datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Mon, 02 January 2006" }}</time>
       <h1>{{ .Title }}</h1>
     </header>
   {{ end }}
@@ -10,6 +9,7 @@
     <div class="postbody">
         {{ .Content }}
     </div>
+    <time datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Mon, 02 January 2006" }}</time>
 </article>
 
 {{ end }}
