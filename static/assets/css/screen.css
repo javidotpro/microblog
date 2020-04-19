@@ -199,6 +199,11 @@ figure img {
     height: auto !important;
 }
 
+.u-url-time {
+    color: var(--mid-gray);
+    font-size: var(--font-med);
+}
+
 img.profile {
     display:block;
     border-radius:100%;

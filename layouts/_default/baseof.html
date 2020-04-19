@@ -2,18 +2,19 @@
 <html lang="en">
   {{ partial "head.html" . }}
 
-  <body class="home">
+  <body>
+    <div class="home">
+      {{ partial "header.html" . }}
 
-    {{ partial "header.html" . }}
+      <main role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
 
-    <main role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-
-    {{ if .IsHome }}{{ partial "pagination.html" . }}{{ end }}
-    
-    {{ partial "footer.html" . }}
-    {{ partial "custom_footer.html" . }}
-    
+      {{ if .IsHome }}{{ partial "pagination.html" . }}{{ end }}
+      
+      {{ partial "footer.html" . }}
+      {{ partial "custom_footer.html" . }}
+      
+    </div>
   </body>
 </html>
