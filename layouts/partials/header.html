@@ -1,10 +1,15 @@
-<header role="banner">
-    <nav role="navigation">
-        <h1><a href="https://javiersanchez.net" class="logo">Javier Sánchez</a></h1>
-        <ul>
-        <li><a href="https://javi.me.uk">Microblog</a></li>
-        <li><a href="/photos/">Photos</a></li>
-        <li><a href="/archive/">Archive</a></li>
-        </ul>
-    </nav>
+<header class="header" role="banner">
+  <figure class="avatar">
+    <a href="/"><img src="{{ .Site.Author.avatar }}" alt="Picture of me" width="120"></a>
+  </figure>
+  <h1 class="site__name">{{ .Site.Author.name }}</h1>
+
+	{{ range .Site.Menus.main }}
+		{{ if .Page.Params.redirect_url }}
+			<a class="site__page" href="{{ .Page.Params.redirect_url }}">{{ .Name }}</a>
+		{{ else }}
+			<a class="site__page" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a>
+		{{ end }}
+	{{ end }}
+
 </header>
