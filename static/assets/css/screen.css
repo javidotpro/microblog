@@ -199,7 +199,7 @@ figure img {
     height: auto !important;
 }
 
-.postbody p img {
+main article div .postbody p img {
     border-radius: 5px !important;
     max-width: 100% !important;
     height: auto !important;
