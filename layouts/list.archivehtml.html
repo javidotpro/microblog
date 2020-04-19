@@ -28,8 +28,8 @@
 
 		<p class="h-entry">
 			<a href="{{ .Permalink }}" class="u-url post-time"><span class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "2006-01-02" }}</span></a> 
-			<span class="p-name"><b>{{ .Title }}</b></span> 
-			<span class="p-summary">{{ .Summary | truncate 100 }}</span>
+			<span class="p-name"><b><a href="{{ .Permalink }}">{{ .Title }}</a></b></span> 
+			<span class="p-summary"><a href="{{ .Permalink }}">{{ .Summary | truncate 100 }}</a></span>
 		</p>
 
 	{{ end }}
