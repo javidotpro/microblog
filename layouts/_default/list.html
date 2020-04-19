@@ -4,7 +4,7 @@
 </header>
 <section class="posts h-feed"></section>
 
-{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 15) }}
+{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 5) }}
 {{ range $paginator.Pages  }}
     <article class="post h-entry">
       {{ if .Title }}
