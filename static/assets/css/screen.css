@@ -199,6 +199,12 @@ figure img {
     height: auto !important;
 }
 
+.postbody p img {
+    border-radius: 5px !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 .u-url-time {
     color: var(--mid-gray);
     font-size: var(--font-med);
