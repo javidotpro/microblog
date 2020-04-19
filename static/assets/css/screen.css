@@ -193,6 +193,12 @@ figure img {
     border: 1px solid lightgray;
 }
 
+e-content p img {
+    border-radius: 5px !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 img.profile {
     display:block;
     border-radius:100%;
@@ -307,6 +313,16 @@ section>header time {
 .photos-grid-container { 
     max-width: 36rem;
     margin: auto;
+}
+
+.post-time {
+    font-variant-numeric: tabular-nums;
+    color: gray;
+    width: 5.5rem;
+    display: inline-block;
+    font-family: SoehneWeb, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .custom .video-responsive {
