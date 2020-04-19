@@ -250,6 +250,18 @@ article>header h1 {
     margin-bottom: 2.5rem
 }
 
+section>header {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 3rem
+}
+
+section>header time {
+    width: 100%;
+    display: block;
+    line-height: 2
+}
+
 .postnav {
     margin: 4rem auto 0;
     padding: 1rem 0;
