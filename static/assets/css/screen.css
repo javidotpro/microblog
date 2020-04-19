@@ -767,6 +767,11 @@ section>header time {
     height: 100% !important;
 }
 
+main article {
+    max-width: 800px;
+    margin: auto;
+}
+
 main ul.home-list { list-style:none; margin:0; padding: 0;}
       main ul.home-list li { padding-left: 5em; }
       main ul.home-list li span {
