@@ -199,6 +199,28 @@ figure img {
     height: auto !important;
 }
 
+.microblog_conversation {
+    margin: auto;
+    max-width: var(--max-width);
+}
+
+.microblog_avatar {
+    border-radius: 5px !important;
+}
+
+.microblog_time {
+    padding-bottom: 20px;
+}
+
+.microblog_text {
+    padding-left: 20px;
+}
+
+.microblog_time a {
+    color: var(--mid-gray);
+    font-size: var(--font-small);
+}
+
 .e-content p img {
     border-radius: 5px !important;
     max-width: 100% !important;
