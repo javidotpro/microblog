@@ -1,5 +1,3 @@
-# Microblog with Jekyll
+# Personal Microblog
 
-We'll add more information as it happens.
-
-A project by Garth Braithwaite and Tim Smith.
+This is my Microblog theme to match the style of my [website](https://javiersanchez.net), it runs on [Hugo](https://gohugo.io/) and it's hosted on [Microblog](https://micro.blog).
