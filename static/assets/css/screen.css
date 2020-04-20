@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("https://www.javi.me.uk/uploads/2020/174821c719.woff2") format("woff2"), url("https://www.javi.me.uk/uploads/2020/e1266204ca.woff") format("woff")
+    src: url("/uploads/2020/174821c719.woff2") format("woff2"), url("/uploads/2020/e1266204ca.woff") format("woff")
 }
 
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("https://www.javi.me.uk/uploads/2020/779657d767.woff2") format("woff2"), url("https://www.javi.me.uk/uploads/2020/563d164b81.woff") format("woff");
+    src: url("/uploads/2020/779657d767.woff2") format("woff2"), url("/uploads/2020/563d164b81.woff") format("woff");
     font-weight: bold
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
-    src: url("https://www.javi.me.uk/uploads/2020/76bbbd0ac7.woff2") format("woff2"), url("https://www.javi.me.uk/uploads/2020/27e6693a3d.woff") format("woff")
+    src: url("/uploads/2020/76bbbd0ac7.woff2") format("woff2"), url("/uploads/2020/27e6693a3d.woff") format("woff")
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
     font-style: italic;
-    src: url("https://www.javi.me.uk/uploads/2020/bf8d141bfd.woff2") format("woff2"), url("https://www.javi.me.uk/uploads/2020/54af997c3d.woff") format("woff")
+    src: url("/uploads/2020/bf8d141bfd.woff2") format("woff2"), url("/uploads/2020/54af997c3d.woff") format("woff")
 }
 
 :root {
