@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/soehne-web-regular.woff2") format("woff2"), url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/soehne-web-regular.woff") format("woff")
+    src: url("https://static.javi.me.uk/microblog/fonts/soehne-web-regular.woff2") format("woff2"), url("https://static.javi.me.uk/microblog/fonts/soehne-web-regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'SoehneWeb';
-    src: url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/soehne-web-medium.woff2") format("woff2"), url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/soehne-web-medium.woff") format("woff");
+    src: url("https://static.javi.me.uk/microblog/fonts/soehne-web-medium.woff2") format("woff2"), url("https://static.javi.me.uk/microblog/fonts/soehne-web-medium.woff") format("woff");
     font-weight: bold
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
-    src: url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/IvarText-Regular.woff2") format("woff2"), url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/IvarText-Regular.woff") format("woff")
+    src: url("https://static.javi.me.uk/microblog/fonts/IvarText-Regular.woff2") format("woff2"), url("https://static.javi.me.uk/microblog/fonts/IvarText-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
     font-style: italic;
-    src: url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/IvarText-Italic.woff2") format("woff2"), url("https://static.javiersanchez.net/javiersanchez-net/assets/fonts/IvarText-Italic.woff") format("woff")
+    src: url("https://static.javi.me.uk/microblog/fonts/IvarText-Italic.woff2") format("woff2"), url("https://static.javi.me.uk/microblog/fonts/IvarText-Italic.woff") format("woff")
 }
 
 :root {
