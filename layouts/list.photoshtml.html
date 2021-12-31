@@ -4,7 +4,7 @@
         <p>Collection of memories that mean something to me.</p>
     </header>
 
-	<div class="photos-grid-container">
+	<div class="photos-grid-container" style="display: grid; grid-column-gap: 15px; grid-row-gap: 15px; grid-template-columns: 33% 33% 33%;">
 
 	{{- $list := where .Pages ".Params.photos" "!=" nil -}}
 	{{- $len := (len $list) -}}
