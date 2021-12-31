@@ -346,6 +346,10 @@ section>header time {
 .photos-grid-container { 
     max-width: 36rem;
     margin: auto;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .post-time {
@@ -827,5 +831,16 @@ main ul.home-list { list-style:none; margin:0; padding: 0;}
     .custom div.section.rainbowbreak h1 {
         font-weight: 200;
         font-size: 2em
+    }
+}
+
+@media (max-width: 25em) {
+   .photos-grid-container { 
+        max-width: 36rem;
+        margin: auto;
+        display: grid;
+        grid-column-gap: 5px !important;
+        grid-row-gap: 15px;
+        grid-template-columns: 33% 33% 33%;
     }
 }
