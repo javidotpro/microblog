@@ -2,7 +2,7 @@
 
 	<script src="/js/yall.js"></script>
 	<script>
-	document.addEventListener("DOMContentLoaded", yall);
+		document.addEventListener("DOMContentLoaded", yall);
 	</script>
 
     <header>
@@ -14,6 +14,7 @@
 
 	{{- $list := where .Site.Pages ".Params.photos" "!=" nil -}}
 	{{- $len := (len $list) -}}
+	{{ range $index, $value := $list }}
 	{{- $url := .Permalink -}}
 		{{ range .Params.photos }}
 			<a href="{{ $url }}">
