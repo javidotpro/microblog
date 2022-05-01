@@ -274,7 +274,6 @@ blockquote p {
 article>header {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 3rem
 }
 
 article>header time {
