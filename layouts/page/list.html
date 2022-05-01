@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header>
+  <h1>Microblog</h1>
+</header>
+<section class="posts h-feed">
+
+{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 10) }}
+{{ range $paginator.Pages  }}
+
+    <article class="post h-entry">
+      {{ if .Title }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ end }}
+      <div class="e-content">{{ .Content }}</div>
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}"><a href="{{ .Permalink }}" title="Permalink to Microblog post" class="u-url-time">{{ .Date.Format "Mon, 02 January 2006" }}</a></time>
+    </article>
+
+{{ end }}
+
+</section>
+
+{{ if .IsHome }} {{ partial "pagination.html" . }} {{ end }}
+
+{{ end }}
