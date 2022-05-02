@@ -1,16 +1,15 @@
 {{ define "main" }}
     <header>
-        <h1>Microblog</h1>
-        <h2>Archive</h2>
+        <h1>Archive</h1>
         <p>Collection of all my posts on Microblog and also a list useful categories.</p>
     </header>
 
 	{{ $list := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
     {{ if gt (len $list) 0 }}
     <header>
-        <h3>Categories</h3>
+        <h2>Categories</h2>
     </header>
-		<div class="archive_categories" style="padding-bottom: 10px;">
+		<div class="archive_categories">
             <ul>
                 {{ range $list }}
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
@@ -20,7 +19,7 @@
     {{ end }}
     
     <header>
-        <h3>Posts</h3>
+        <h2>Posts</h2>
     </header>
 	
 	{{ $list := (where .Site.Pages "Type" "post") }}

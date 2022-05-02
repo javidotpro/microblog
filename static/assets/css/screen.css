@@ -142,7 +142,7 @@ body>header li {
 
 body>header * {
     font-size: var(--font-med);
-    line-height: 1.4
+    line-height: 1.5
 }
 
 @media (max-width: 800px) {
@@ -222,7 +222,7 @@ figure img {
 }
 
 .e-content p img {
-    border-radius: 5px !important;
+    border-radius: 8px !important;
     max-width: 100% !important;
     height: auto !important;
 }
