@@ -11,13 +11,13 @@
 
 @font-face {
     font-family: 'IvarTextWeb';
-    src: url("/uploads/2022/0044b68736.woff2") format("woff2");
+    src: url("/uploads/2022/287a55056f.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
     font-style: italic;
-    src: url("/uploads/2022/03c6859517.woff2") format("woff2");
+    src: url("/uploads/2022/a7c78276a3.woff2") format("woff2");
 }
 
 :root {
@@ -234,9 +234,8 @@ figure img {
 
 img.profile {
     display:block;
-    border-radius:100%;
-    width:10em;
-    margin:2rem 0 2rem;
+    border-radius: 8px;
+    width: 10em;
 }
 
 figure figcaption {
