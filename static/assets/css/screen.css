@@ -11,13 +11,13 @@
 
 @font-face {
     font-family: 'IvarTextWeb';
-    src: url("/uploads/2020/76bbbd0ac7.woff2") format("woff2"), url("/uploads/2020/27e6693a3d.woff") format("woff")
+    src: url("/uploads/2022/0044b68736.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'IvarTextWeb';
     font-style: italic;
-    src: url("/uploads/2020/bf8d141bfd.woff2") format("woff2"), url("/uploads/2020/54af997c3d.woff") format("woff")
+    src: url("/uploads/2022/03c6859517.woff2") format("woff2");
 }
 
 :root {
