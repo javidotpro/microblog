@@ -1,30 +1,46 @@
 @font-face {
-    font-family: 'SoehneWeb';
-    src: url("/uploads/2020/174821c719.woff2") format("woff2"), url("/uploads/2020/e1266204ca.woff") format("woff")
+    font-family: 'personalSansFont';
+    font-weight: normal;
+    src: url("/uploads/2022/43875aa9f7.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'SoehneWeb';
-    src: url("/uploads/2020/779657d767.woff2") format("woff2"), url("/uploads/2020/563d164b81.woff") format("woff");
-    font-weight: bold
+    font-family: 'personalSansFont';
+    font-weight: bold;
+    src: url("/uploads/2022/7338184ded.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'IvarTextWeb';
+    font-family: 'personalSerifFont';
+    font-weight: normal;
     src: url("/uploads/2022/287a55056f.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'IvarTextWeb';
+    font-family: 'personalSerifFont';
+    font-weight: normal;
     font-style: italic;
     src: url("/uploads/2022/a7c78276a3.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'personalSerifFont';
+    font-weight: bold;
+    src: url("/uploads/2022/3370f5edd3.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'personalSerifFont';
+    font-weight: bold;
+    font-style: italic;
+    src: url("/uploads/2022/101bea093e.woff2") format("woff2");
 }
 
 :root {
     --max-width: 36rem;
     --max-width-post-image: 69rem;
-    --sans: 'SoehneWeb', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --serif: 'IvarTextWeb', 'Charter', Georgia, serif;
+    --sans: 'personalSansFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: 'personalSerifFont', 'Charter', Georgia, serif;
     --font-small: 0.8rem;
     --font-med: 0.9rem;
     --text-color: rgba(0, 0, 0, 0.77);
